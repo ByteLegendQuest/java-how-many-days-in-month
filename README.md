@@ -8,8 +8,11 @@
 Please complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java)'s `howManyDaysInMonth()` method. No need to consider illegal input.
 
 `howManyDaysInMonth` method returns the number of days in the specified year and month.
+
 For example, `howManyDaysInMonth(2020, 2)` returns 29.
+
 `howManyDaysInMonth(2020, 4)` returns 30.
+
 `howManyDaysInMonth(1900, 2)` returns 28.
 
 
@@ -43,8 +46,11 @@ Any changes to files other than the following files will be rejected:**
 请完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java)的`howManyDaysInMonth()`方法。无需考虑非法输入的情况。
 
 `howManyDaysInMonth` 方法返回指定年和月份的天数。
+
 例如，`howManyDaysInMonth(2020, 2)` 返回 29。
+
 `howManyDaysInMonth(2020, 4)` 返回 30。
+
 `howManyDaysInMonth(1900, 2)` 返回 28。
 
 
@@ -76,7 +82,13 @@ Any changes to files other than the following files will be rejected:**
 
 請完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java)的`howManyDaysInMonth()`方法。無需考慮非法輸入。
 
-`howManyDaysInMonth`方法返回指定年份和月份的天數。例如， `howManyDaysInMonth(2020, 2)`返回`howManyDaysInMonth(2020, 4)`返回`howManyDaysInMonth(1900, 2)`返回 28。
+`howManyDaysInMonth`方法返回指定年份和月份的天數。
+
+例如， `howManyDaysInMonth(2020, 2)`返回 29。
+
+`howManyDaysInMonth(2020, 4)`返回 30。
+
+`howManyDaysInMonth(1900, 2)`返回 28。
 
 -   您可以通過以下任何方式完成此挑戰：
     -   推薦給初學者：運行`git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month`下載代碼，在本地IDE中完成挑戰，然後復制/粘貼/提交答案網頁編輯器。
@@ -105,7 +117,13 @@ cuantos dias tiene un mes
 
 Complete el método `howManyDaysInMonth()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) . No hay necesidad de considerar la entrada ilegal.
 
-El método `howManyDaysInMonth` devuelve el número de días en el año y el mes especificados. Por ejemplo, `howManyDaysInMonth(2020, 2)` devuelve 29. `howManyDaysInMonth(2020, 4)` devuelve 30. `howManyDaysInMonth(1900, 2)` devuelve 28.
+El método `howManyDaysInMonth` devuelve el número de días en el año y el mes especificados.
+
+Por ejemplo, `howManyDaysInMonth(2020, 2)` devuelve 29.
+
+`howManyDaysInMonth(2020, 4)` devuelve 30.
+
+`howManyDaysInMonth(1900, 2)` devuelve 28.
 
 -   Puede lograr este desafío de cualquier manera a continuación:
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en Editor web.
@@ -134,7 +152,13 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 يرجى إكمال طريقة [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) `howManyDaysInMonth()` . لا حاجة للنظر في المدخلات غير القانونية.
 
-تُرجع طريقة `howManyDaysInMonth` عدد الأيام في السنة والشهر المحددين. على سبيل المثال ، `howManyDaysInMonth(2020, 2)` 29. تُرجع `howManyDaysInMonth(2020, 4)` 30. تُرجع `howManyDaysInMonth(1900, 2)` 28.
+تُرجع طريقة `howManyDaysInMonth` عدد الأيام في السنة والشهر المحددين.
+
+على سبيل المثال ، `howManyDaysInMonth(2020, 2)` 29.
+
+`howManyDaysInMonth(2020, 4)` تُرجع 30.
+
+`howManyDaysInMonth(1900, 2)` 28.
 
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محررشبكة.
@@ -163,16 +187,22 @@ Quantos dias em um mês
 
 Por favor, complete o método `howManyDaysInMonth()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) . Não há necessidade de considerar a entrada ilegal.
 
-`howManyDaysInMonth` retorna o número de dias no ano e mês especificados. Por exemplo, `howManyDaysInMonth(2020, 2)` retorna 29. `howManyDaysInMonth(2020, 4)` retorna 30. `howManyDaysInMonth(1900, 2)` retorna 28.
+`howManyDaysInMonth` retorna o número de dias no ano e mês especificados.
 
--   Você pode realizar esse desafio de qualquer maneira abaixo:
+Por exemplo, `howManyDaysInMonth(2020, 2)` retorna 29.
+
+`howManyDaysInMonth(2020, 4)` retorna 30.
+
+`howManyDaysInMonth(1900, 2)` retorna 28.
+
+-   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta em editor web.
         -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-how-many-days-in-month/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-how-many-days-in-month) , finalizar o desafio e criar um pull request.
--   O bot verificará seu PR e informará se você cumpriu o desafio.
+-   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
 Boa sorte!
@@ -192,7 +222,13 @@ Berapa Hari dalam Sebulan
 
 Harap lengkapi metode `howManyDaysInMonth()` [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) . Tidak perlu mempertimbangkan input ilegal.
 
-metode `howManyDaysInMonth` mengembalikan jumlah hari dalam tahun dan bulan yang ditentukan. Misalnya, `howManyDaysInMonth(2020, 2)` mengembalikan 29. `howManyDaysInMonth(2020, 4)` mengembalikan 30. `howManyDaysInMonth(1900, 2)` mengembalikan 28.
+metode `howManyDaysInMonth` mengembalikan jumlah hari dalam tahun dan bulan yang ditentukan.
+
+Misalnya, `howManyDaysInMonth(2020, 2)` mengembalikan 29.
+
+`howManyDaysInMonth(2020, 4)` mengembalikan 30.
+
+`howManyDaysInMonth(1900, 2)` mengembalikan 28.
 
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web.
@@ -221,7 +257,13 @@ Combien de jours dans un mois
 
 Veuillez compléter la méthode `howManyDaysInMonth()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) . Pas besoin de considérer les entrées illégales.
 
-La méthode `howManyDaysInMonth` renvoie le nombre de jours dans l'année et le mois spécifiés. Par exemple, `howManyDaysInMonth(2020, 2)` renvoie 29. `howManyDaysInMonth(2020, 4)` renvoie 30. `howManyDaysInMonth(1900, 2)` renvoie 28.
+La méthode `howManyDaysInMonth` renvoie le nombre de jours dans l'année et le mois spécifiés.
+
+Par exemple, `howManyDaysInMonth(2020, 2)` renvoie 29.
+
+`howManyDaysInMonth(2020, 4)` renvoie 30.
+
+`howManyDaysInMonth(1900, 2)` renvoie 28.
 
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans éditeur web.
@@ -250,7 +292,13 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java)の`howManyDaysInMonth()`メソッドを完了してください。違法な入力を考慮する必要はありません。
 
-`howManyDaysInMonth`メソッドは、指定された年と月の日数を返します。たとえば、 `howManyDaysInMonth(2020, 2)`は29を返します`howManyDaysInMonth(2020, 4)`は30を返します`howManyDaysInMonth(1900, 2)`は28を返します。
+`howManyDaysInMonth`メソッドは、指定された年と月の日数を返します。
+
+たとえば、 `howManyDaysInMonth(2020, 2)`は29を返します。
+
+`howManyDaysInMonth(2020, 4)`返します。
+
+`howManyDaysInMonth(1900, 2)`返します。
 
 -   この課題は、以下のいずれかの方法で達成できます。
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month`を実行してコードをダウンロードし、ローカルIDEでチャレンジを完了してから、で回答をコピー/貼り付け/送信します。 Webエディター。
@@ -279,7 +327,13 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 Пожалуйста, заполните метод [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) `howManyDaysInMonth()` . Нет необходимости рассматривать незаконный ввод.
 
-Метод `howManyDaysInMonth` возвращает количество дней в указанном году и месяце. Например, `howManyDaysInMonth(2020, 2)` `howManyDaysInMonth(2020, 4)` `howManyDaysInMonth(1900, 2)` .
+Метод `howManyDaysInMonth` возвращает количество дней в указанном году и месяце.
+
+Например, `howManyDaysInMonth(2020, 2)` возвращает 29.
+
+`howManyDaysInMonth(2020, 4)` возвращает 30.
+
+`howManyDaysInMonth(1900, 2)` возвращает 28.
 
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` , чтобы загрузить код, выполните задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редактор.
@@ -308,7 +362,13 @@ Wie viele Tage im Monat
 
 Bitte vervollständigen Sie die Methode `howManyDaysInMonth()` [von src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) . Unzulässige Eingaben müssen nicht berücksichtigt werden.
 
-Die Methode `howManyDaysInMonth` gibt die Anzahl der Tage im angegebenen Jahr und Monat zurück. Beispiel: `howManyDaysInMonth(2020, 2)` gibt 29 zurück. `howManyDaysInMonth(2020, 4)` gibt 30 zurück. `howManyDaysInMonth(1900, 2)` gibt 28 zurück.
+Die Methode `howManyDaysInMonth` gibt die Anzahl der Tage im angegebenen Jahr und Monat zurück.
+
+Beispiel: `howManyDaysInMonth(2020, 2)` gibt 29 zurück.
+
+`howManyDaysInMonth(2020, 4)` gibt 30 zurück.
+
+`howManyDaysInMonth(1900, 2)` gibt 28 zurück.
 
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen/senden Sie dann die Antwort ein Web-Editor.
@@ -337,7 +397,13 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 
 [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) 의 `howManyDaysInMonth()` 메소드를 완성해주세요. 불법 입력을 고려할 필요가 없습니다.
 
-`howManyDaysInMonth` 메서드는 지정된 연도 및 월의 일 수를 반환합니다. 예를 들어, `howManyDaysInMonth(2020, 2)` 는 29를 반환합니다. `howManyDaysInMonth(2020, 4)` 는 30을 반환합니다. `howManyDaysInMonth(1900, 2)` 는 28을 반환합니다.
+`howManyDaysInMonth` 메서드는 지정된 연도 및 월의 일 수를 반환합니다.
+
+예를 들어, `howManyDaysInMonth(2020, 2)` 는 29를 반환합니다.
+
+`howManyDaysInMonth(2020, 4)` 는 30을 반환합니다.
+
+`howManyDaysInMonth(1900, 2)` 는 28을 반환합니다.
 
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
     -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 복사/붙여넣기/제출 웹 에디터.
@@ -366,7 +432,13 @@ Quanti giorni in un mese
 
 Si prega di completare il metodo `howManyDaysInMonth()` di [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-how-many-days-in-month/blob/main/src/main/java/com/bytelegend/Challenge.java) . Non c'è bisogno di considerare input illegali.
 
-`howManyDaysInMonth` restituisce il numero di giorni nell'anno e nel mese specificati. Ad esempio, `howManyDaysInMonth(2020, 2)` restituisce 29. `howManyDaysInMonth(2020, 4)` restituisce 30. `howManyDaysInMonth(1900, 2)` restituisce 28.
+`howManyDaysInMonth` restituisce il numero di giorni nell'anno e nel mese specificati.
+
+Ad esempio, `howManyDaysInMonth(2020, 2)` restituisce 29.
+
+`howManyDaysInMonth(2020, 4)` restituisce 30.
+
+`howManyDaysInMonth(1900, 2)` restituisce 28.
 
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-how-many-days-in-month` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta in editore web.

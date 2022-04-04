@@ -9,9 +9,13 @@ public class Challenge {
     }
 
     /**
-     * `howManyDaysInMonth` method returns the number of days in the specified year and month. For
-     * example, `howManyDaysInMonth(2020, 2)` returns 29. `howManyDaysInMonth(2020, 4)` returns 30.
-     * `howManyDaysInMonth(1900, 2)` returns 28.
+     * `howManyDaysInMonth` method returns the number of days in the specified year and month.
+     *
+     * <p>For example, `howManyDaysInMonth(2020, 2)` returns 29.
+     *
+     * <p>`howManyDaysInMonth(2020, 4)` returns 30.
+     *
+     * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
         return 0;
