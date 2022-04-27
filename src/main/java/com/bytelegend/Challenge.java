@@ -1,6 +1,9 @@
 package com.bytelegend;
 
-public class Challenge {
+import java.util.Calendar;
+
+public class Challenge
+    private static final Calendar CAL = Calendar.getInstance();
     public static void main(String[] args) {
         System.out.println(howManyDaysInMonth(1999, 2));
         System.out.println(howManyDaysInMonth(2020, 2));
@@ -18,6 +21,8 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        return 0;
+        CAL.set(year, month, 1);
+        CAL.add(Calendar.DATE, -1);
+        return CAL.get(Calendar.DATE);
     }
 }
