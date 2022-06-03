@@ -23,9 +23,12 @@ public class Challenge {
 
     public static int howManyDaysInMonth(int year, int month) {
         switch (month) {
-            case 4, 6, 9, 11 -> return 30;
-            case 2 -> return isLeapYear(year) ? 29 : 28;
-            default -> return 31;
-        };
+            case 4, 6, 9, 11:
+                return 30;
+            case 2:
+                return isLeapYear(year) ? 29 : 28;
+            default:
+                return 31;
+        }
     }
 }
