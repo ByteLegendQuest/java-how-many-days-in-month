@@ -17,7 +17,15 @@ public class Challenge {
      *
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
+    public static boolean isLeapYear(int year) {
+        return year % 400 == 0 ? true : year % 100 == 0 ? false : year % 4 == 0;
+    }
+
     public static int howManyDaysInMonth(int year, int month) {
-        return 0;
+        return switch (month) {
+            case 4, 6, 9, 11 -> 30;
+            case 2 -> isLeapYear(year) ? 29 : 28;
+            default -> 31;
+        };
     }
 }
