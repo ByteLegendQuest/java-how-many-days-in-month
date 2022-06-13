@@ -36,6 +36,9 @@ public class Challenge {
                 } else {
                     return 28;
                 }
+            default:
+                System.out.println("error!!!");
+                break;
         }
         return 0;
     }
