@@ -1,5 +1,8 @@
 package com.bytelegend;
 
+import java.util.Calendar;
+import java.util.Date;
+
 public class Challenge {
     public static void main(String[] args) {
         System.out.println(howManyDaysInMonth(1999, 2));
@@ -18,6 +21,9 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        return 0;
+        Calendar calendar = new Calendar.Builder().build();
+        calendar.set(year, month,1);
+        calendar.add(Calendar.DAY_OF_MONTH, -1);
+        return calendar.get(Calendar.DAY_OF_MONTH);
     }
 }
