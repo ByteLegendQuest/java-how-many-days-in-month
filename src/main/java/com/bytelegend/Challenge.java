@@ -1,5 +1,5 @@
 package com.bytelegend;
-
+import java.time.LocalDate;
 public class Challenge {
     public static void main(String[] args) {
         System.out.println(howManyDaysInMonth(1999, 2));
@@ -18,6 +18,6 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        return 0;
+        return LocalDate.of(year, month, 1).lengthOfMonth();
     }
 }
