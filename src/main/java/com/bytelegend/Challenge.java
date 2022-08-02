@@ -20,13 +20,13 @@ public class Challenge {
     public static int howManyDaysInMonth(int year, int month) {
                 switch (month) {
 
-            case 4, 6, 9, 11:
-                return 30;
-            /*case 4:
+            // case 4, 6, 9, 11:
+            //     return 30;
+            case 4:
             case 6:
             case 9:
             case 11:
-                return 30;*/
+                return 30;
             case 2:
                 return (year % 100 == 0 && year % 400 == 0) || (year % 100 != 0 && year % 4 == 0) ? 29 : 28;
             default:
