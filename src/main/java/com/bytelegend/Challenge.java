@@ -19,13 +19,22 @@ public class Challenge {
      */
     public static int howManyDaysInMonth(int year, int month) {
         switch (month) {
-
-            case 4, 6, 9, 11:
-                return 30;
             case 2:
-                return ((year % 100 == 0 && year % 400 == 0) || (year % 100 != 0 && year % 4 == 0)) ? 29 : 28;
+                if (isLeapYear(year)) {
+                    return 29;
+                }
+                return 28;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                return 30;
             default:
                 return 31;
         }
+    }
+
+    public static boolean isLeapYear(int year) {
+        return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
     }
 }
