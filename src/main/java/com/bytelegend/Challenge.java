@@ -23,7 +23,7 @@ public class Challenge {
             case 4, 6, 9, 11:
                 return 30;
             case 2:
-                return (year % 100 == 0 && year % 400 == 0) || (year % 100 != 0 && year % 4 == 0) ? 29 : 28;
+                return ((year % 100 == 0 && year % 400 == 0) || (year % 100 != 0 && year % 4 == 0)) ? 29 : 28;
             default:
                 return 31;
         }
