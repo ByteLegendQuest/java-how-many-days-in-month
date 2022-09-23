@@ -30,7 +30,6 @@ public class Challenge {
             default:
                 return 31;
         }
-
         return 0;
     }
 }
