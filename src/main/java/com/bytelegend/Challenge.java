@@ -28,6 +28,6 @@ public class Challenge {
             case 11:
                 return 30;
         }
-        return 0;
+        return 31;
     }
 }
