@@ -27,8 +27,6 @@ public class Challenge {
             case 9:
             case 11:
                 return 30;
-            default:
-                return 31;
         }
         return 0;
     }
