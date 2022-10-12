@@ -8,6 +8,9 @@ public class Challenge {
         System.out.println(howManyDaysInMonth(2022, 12));
     }
 
+    int[] days = new int[] {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int[] daysOfLeapYear = new int[] {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
     /**
      * `howManyDaysInMonth` method returns the number of days in the specified year and month.
      *
@@ -18,6 +21,11 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        return 0;
+        boolean leapYear = year % 100 == 0 && year % 400 == 0 || year % 100 != 0 && year % 4 == 0;
+        if (leapYear) {
+            return daysOfLeapYear[month - 1];
+        } else {
+            return days[month - 1];
+        }
     }
 }
