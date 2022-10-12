@@ -8,8 +8,8 @@ public class Challenge {
         System.out.println(howManyDaysInMonth(2022, 12));
     }
 
-    int[] days = new int[] {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    int[] daysOfLeapYear = new int[] {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    public static int[] days = new int[] {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    public static int[] daysOfLeapYear = new int[] {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
     /**
      * `howManyDaysInMonth` method returns the number of days in the specified year and month.
