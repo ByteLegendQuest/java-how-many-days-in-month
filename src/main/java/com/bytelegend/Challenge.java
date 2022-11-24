@@ -18,6 +18,19 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        return 0;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            return switch (month) {
+                case 1, 3, 5, 7, 8, 10, 12 -> 31;
+                case 2 -> 29;
+                case 4, 6, 9, 11 -> 30;
+                default -> 0;
+            };
+        }
+        return switch (month) {
+            case 1, 3, 5, 7, 8, 10, 12 -> 31;
+            case 2 -> 28;
+            case 4, 6, 9, 11 -> 30;
+            default -> 0;
+        };
     }
 }
