@@ -35,7 +35,7 @@ public class Challenge {
             case 2:
                 return ((year%400==0)||((year%100!=0)&&(year%4==0)))?29:28;
             default：
-                return 0;
+                return 31;
                 
         }
     }
