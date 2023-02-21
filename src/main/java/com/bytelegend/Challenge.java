@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-java.time.YearMonth;
+import java.time.YearMonth;
 
 public class Challenge {
     public static void main(String[] args) {
