@@ -22,11 +22,38 @@ public class Challenge {
         boolean flag = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
         if (flag) {
             switch (month) {
-                case 1, 3, 5, 7, 8, 10, 12:
+                case 1:
                     i = 31;
                     break;
-                case 4, 6, 9, 11:
+                case 3:
+                    i = 31;
+                    break;
+                case 5:
+                    i = 31;
+                    break;
+                case 7:
+                    i = 31;
+                    break;
+                case 8:
+                    i = 31;
+                    break;
+                case 10:
+                    i = 31;
+                    break;
+                case 12:
+                    i = 31;
+                    break;
+                case 4:
                     i = 30;
+                    break;
+                case 6:
+                    i = 31;
+                    break;
+                case 9:
+                    i = 31;
+                    break;
+                case 11:
+                    i = 31;
                     break;
                 case 2:
                     i = 29;
@@ -34,11 +61,38 @@ public class Challenge {
             }
         } else {
             switch (month) {
-                case 1, 3, 5, 7, 8, 10, 12:
+                case 1:
                     i = 31;
                     break;
-                case 4, 6, 9, 11:
+                case 3:
+                    i = 31;
+                    break;
+                case 5:
+                    i = 31;
+                    break;
+                case 7:
+                    i = 31;
+                    break;
+                case 8:
+                    i = 31;
+                    break;
+                case 10:
+                    i = 31;
+                    break;
+                case 12:
+                    i = 31;
+                    break;
+                case 4:
                     i = 30;
+                    break;
+                case 6:
+                    i = 31;
+                    break;
+                case 9:
+                    i = 31;
+                    break;
+                case 11:
+                    i = 31;
                     break;
                 case 2:
                     i = 28;
