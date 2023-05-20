@@ -18,7 +18,7 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        if (month == 2) return fef(year);
+        if (month == 2) return feb(year);
         return new int[] {31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}[month - 1];
     }
 
