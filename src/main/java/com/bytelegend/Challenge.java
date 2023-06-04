@@ -18,6 +18,11 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        return YearMonth.of(year, month).lengthOfMonth();
+        boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+        return switch (month) {
+            case 2 -> isLeapYear ? 29 : 28;
+            case 4, 6, 9, 11 -> 30;
+            default -> 31;
+        };
     }
 }
