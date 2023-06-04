@@ -1,5 +1,7 @@
 package com.bytelegend;
 
+import java.time.YearMonth;
+
 public class Challenge {
     public static void main(String[] args) {
         System.out.println(howManyDaysInMonth(1999, 2));
@@ -18,11 +20,6 @@ public class Challenge {
      * <p>`howManyDaysInMonth(1900, 2)` returns 28.
      */
     public static int howManyDaysInMonth(int year, int month) {
-        boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
-        return switch (month) {
-            case 2 -> isLeapYear ? 29 : 28;
-            case 4, 6, 9, 11 -> 30;
-            default -> 31;
-        };
+        return YearMonth.of(year, month).lengthOfMonth();
     }
 }
