@@ -24,6 +24,6 @@ public class Challenge {
     public static int howManyDaysInMonth(int year, int month) {
         int[] daysInMonth = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         if (isLeapYear(year) && month == 2) return 29;
-        return daysInMonth(month - 1);
+        return daysInMonth[month - 1];
     }
 }
